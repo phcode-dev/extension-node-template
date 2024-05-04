@@ -20,10 +20,7 @@ define(function (require, exports, module) {
         Menus = brackets.getModule("command/Menus"),
         NodeConnector = brackets.getModule("NodeConnector");
 
-    const nodeConnector = NodeConnector.createNodeConnector(
-        "your-extension-id-1",
-        exports
-    );
+    let nodeConnector;
 
     async function fetchImage() {
         const imageUrl = "https://picsum.photos/536/354";
@@ -40,6 +37,10 @@ define(function (require, exports, module) {
 
     // Function to run when the menu item is clicked
     async function handleHelloWorld() {
+        if (!Phoenix.isNativeApp) {
+            alert("Node Features only works in desktop apps.");
+            return;
+        }
         let html = "<b>Image conversion failed</b>";
         try {
             alert("downloading image...");
@@ -86,6 +87,10 @@ define(function (require, exports, module) {
         console.log("hello world");
 
         if (Phoenix.isNativeApp) {
+            nodeConnector = NodeConnector.createNodeConnector(
+                "your-extension-id-1",
+                exports
+            );
             // you can also execute nodejs code in dekstop builds
             // below code will execute the function `echoTest` defined in `node/index.js`
             nodeConnector.execPeer("echoTest", "yo!").then(console.log);

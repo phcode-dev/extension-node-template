@@ -17,7 +17,7 @@
         "main.js"
     ],
     "nodeConfig": {
-        "nodeIsRequired": true,
+        "nodeIsRequired": false,
         "main": "node/index.js",
         "npmInstall": "node/"
     }

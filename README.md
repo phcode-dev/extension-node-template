@@ -1,11 +1,13 @@
 # Extension Template
 
 Quick start and create a new `node.js extension` by using this template. This
-template extension works in browser as well as desktop builds.
+template extension works in browser as well as desktop builds. In browser, it
+will not use node, and node.js based functionalities are not available. Desktop
+builds will use node capabilities.
 
-In desktop builds, there is an additional capability to execute node.js code. This
-is helpful if you want to extend the functionality of Phoenix Code using the
-vast npm library.
+In desktop builds, there is an additional capability to execute node.js code.
+This is helpful if you want to extend the functionality of Phoenix Code using
+the vast npm library.
 
 For creating extensions that do not need node, follow this link:
 https://github.com/phcode-dev/extension-template
@@ -68,6 +70,7 @@ extension components.
     event trigger/listen within node.
 
 # Using this template
+
 Follow the below 4 steps to start using this template:
 
 Refer this
