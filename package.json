@@ -1,20 +1,21 @@
 {
-    "title": "Name of the extension",
-    "name": "github-<owner>-<repo>",
-    "description": "A sample extension.",
+    "title": "extension-node-template",
+    "name": "gh-phcode-dev-extension-node-template",
+    "description": "A Phoenix Code NodeJS Extension template",
     "version": "0.0.1",
-    "license": "MIT",
-    "author": "your name (https://github.com/<your github id>)",
-    "homepage": "<project web page url or this github repo url if no website available>",
+    "license": "unknown",
+    "author": "phcode-dev",
+    "homepage": "https://github.com/phcode-dev/extension-node-template",
     "engines": {
         "brackets": ">=2.0.0"
     },
     "categories": "demo",
     "keywords": [
-        "phcode", "extension", "demo"
+        "phcode",
+        "extension",
+        "demo"
     ],
     "files": [
         "main.js"
     ]
 }
-
