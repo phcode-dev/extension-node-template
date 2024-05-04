@@ -1,12 +1,24 @@
 # Extension Template
 
-Quick start and create a new extension by using this template. Follow the below 4 steps:
+Quick start and create a new `node.js extension` by using this template. This
+template extension works in browser as well as desktop builds.
 
-Refer this [link](https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes) for detailed extension docs after following the below steps:
+In desktop builds, there is an additional capability to execute node.js code. This
+is helpful if you want to extend the functionality of Phoenix Code using the
+vast npm library.
+
+For creating extensions that do not need node, follow this link:
+https://github.com/phcode-dev/extension-template
+
+Follow the below 4 steps to start using this template:
+
+Refer this
+[link](https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes)
+for detailed extension docs after following the below steps:
 
 ## step 1
 
-Login with github: https://github.com/login
+Login with GitHub: https://github.com/login
 
 ## step 2
 
@@ -15,26 +27,35 @@ Create a new repository using this template.
 
 ## step 3
 
-* Clone your GitHub Repo created from `step 2`. See [this link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to lean how to clone a repository from GitHub.
+-   Clone your GitHub Repo created from `step 2`. See
+    [this link](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+    to lean how to clone a repository from GitHub.
 
 ## step 4
 
-* Go to https://create.phcode.dev .This is a special development centric website of phcode.dev which shows non minified js/css files in the browser developer tools.
-* Open the cloned folder and select `Debug > Load Project As Extension`
+-   Go to https://create.phcode.dev .This is a special development centric
+    website of phcode.dev which shows non minified js/css files in the browser
+    developer tools.
+-   Open the cloned folder and select `Debug > Load Project As Extension`
 
 ![image](https://user-images.githubusercontent.com/5336369/224746152-0416a862-891a-4fe1-b9dd-09add25a6cc0.png)
 
-
-* You can now make code changes to your extension and select `Debug> Reload With Extensions` to test the new code changes.
-* When you are done developing the extension/theme, select `Debug> Unload Project As Extension` to unload the extension.
+-   You can now make code changes to your extension and select
+    `Debug> Reload With Extensions` to test the new code changes.
+-   When you are done developing the extension/theme, select
+    `Debug> Unload Project As Extension` to unload the extension.
 
 ![image](https://user-images.githubusercontent.com/5336369/224747590-556dff1d-5b29-41c3-88a0-3ce72ab643d0.png)
 
 # Detailed Documentation
 
-Please go to https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes for more documentation/community support links.
+Please go to
+https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes
+for more documentation/community support links.
 
 # Publishing your extension to the repository
 
-Once you have built your extension/theme, you can publish the extension to phcode.dev extension repository in a single step directly from this repo.
-Please see publish section in this link for more details: https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes
+Once you have built your extension/theme, you can publish the extension to
+phcode.dev extension repository in a single step directly from this repo. Please
+see publish section in this link for more details:
+https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes
