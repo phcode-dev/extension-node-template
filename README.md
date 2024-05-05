@@ -1,6 +1,6 @@
 # Extension Template
 
-Quick start and create a new `node.js extension` by using this template. This
+Quick start and create a new `Phoenix Code node.js extension` by using this template. This
 template extension works in browser as well as desktop builds. In browser, it
 will not use node, and node.js based functionalities are not available. Desktop
 builds will use node capabilities.
