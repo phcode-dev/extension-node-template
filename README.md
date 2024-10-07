@@ -58,14 +58,14 @@ The `nodeConfig` object indicates that this is a Node extension.
 ### NodeConnector-API
 
 create
-[NodeConnector-API](https://github.com/phcode-dev/phoenix/wiki/NodeConnector-API)
+[NodeConnector-API](https://docs.phcode.dev/api/API-Reference/NodeConnector)
 to call functions and send events between your node.js and Phoenix Code
 extension components.
 
 -   This is available as a global object `global.createNodeConnector`. See above
     link for API docs.
 -   Another API -
-    [EventDispatcher-API](https://github.com/phcode-dev/phoenix/wiki/EventDispatcher-API)
+    [EventDispatcher-API](https://docs.phcode.dev/api/API-Reference/utils/EventDispatcher)
     is also available in the global context as `global.EventDispatcher` for
     event trigger/listen within node.
 
@@ -74,7 +74,7 @@ extension components.
 Follow the below 4 steps to start using this template:
 
 Refer this
-[link](https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes)
+[link](https://docs.phcode.dev/api/writing-ext-themes)
 for detailed extension docs after following the below steps:
 
 ## step 1
@@ -127,13 +127,10 @@ Create a new repository using this template.
 
 # Detailed Documentation
 
-Please go to
-https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes
-for more documentation/community support links.
+Please go to [https://docs.phcode.dev/api/writing-ext-themes](https://docs.phcode.dev/api/writing-ext-themes) for more documentation/community support links.
 
 # Publishing your extension to the repository
 
 Once you have built your extension/theme, you can publish the extension to
 phcode.dev extension repository in a single step directly from this repo. Please
-see publish section in this link for more details:
-https://github.com/phcode-dev/phoenix/wiki/How-To-Write-Extensions-And-Themes
+see publish section in this link for more details: [Writing extension and themes](https://docs.phcode.dev/api/writing-ext-themes)
