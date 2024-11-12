@@ -1,7 +1,6 @@
 # Extension Template
 
-Quick start and create a new `Phoenix Code node.js extension` by using this template. This
-template extension works in browser as well as desktop builds. In browser, it
+Quick start and create a new `Phoenix Code node.js extension` by using this template. This template extension works in browser as well as desktop builds. In browser, it
 will not use node, and node.js based functionalities are not available. Desktop
 builds will use node capabilities.
 
@@ -57,10 +56,7 @@ The `nodeConfig` object indicates that this is a Node extension.
 
 ### NodeConnector-API
 
-create
-[NodeConnector-API](https://docs.phcode.dev/api/API-Reference/NodeConnector)
-to call functions and send events between your node.js and Phoenix Code
-extension components.
+create [NodeConnector-API](https://docs.phcode.dev/api/API-Reference/NodeConnector) to call functions and send events between your node.js and Phoenix Code extension components.
 
 -   This is available as a global object `global.createNodeConnector`. See above
     link for API docs.
@@ -74,8 +70,7 @@ extension components.
 Follow the below 4 steps to start using this template:
 
 Refer this
-[link](https://docs.phcode.dev/api/writing-ext-themes)
-for detailed extension docs after following the below steps:
+[link](https://docs.phcode.dev/api/creating-extensions) for detailed extension documentation after following the below steps:
 
 ## step 1
 
@@ -127,10 +122,10 @@ Create a new repository using this template.
 
 # Detailed Documentation
 
-Please go to [https://docs.phcode.dev/api/writing-ext-themes](https://docs.phcode.dev/api/writing-ext-themes) for more documentation/community support links.
+Please go to [https://docs.phcode.dev/api/creating-extensions](https://docs.phcode.dev/api/creating-extensionss) for more documentation/community support links.
 
 # Publishing your extension to the repository
 
 Once you have built your extension/theme, you can publish the extension to
 phcode.dev extension repository in a single step directly from this repo. Please
-see publish section in this link for more details: [Writing extension and themes](https://docs.phcode.dev/api/writing-ext-themes)
+see publish section in this link for more details: [Publishing extension and themes](https://docs.phcode.dev/api/publishing-extensions)
