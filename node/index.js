@@ -6,7 +6,7 @@
  * Zip `node/package-lock.json`, but not node modules.
  *
  * To communicate between this node file and the phoenix extension use: NodeConnector-API -
- * See. https://github.com/phcode-dev/phoenix/wiki/NodeConnector-API for detailed docs.
+ * See. https://docs.phcode.dev/api/API-Reference/NodeConnector for detailed docs.
  **/
 console.log("hello world node extension");
 
